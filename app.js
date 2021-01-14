@@ -17,6 +17,10 @@ app.get('/about', (req, res) => {
   app.get('/help', (req, res) => {
     res.send(`For any further assistance..contact Annie Chandolu`)
   })
+
+  app.get('/help/:topic', (req, res) => {
+    res.send(`Your help will arrive soon for ${req.params.topic}`)
+  })
   
 
 app.listen(port, () => {
