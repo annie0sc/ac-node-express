@@ -11,11 +11,11 @@ app.get('/about', (req, res) => {
   })
   
   app.get('/contact', (req, res) => {
-    res.send("contact for help")
+    res.send("Contact me on s538306@nwmissouri.edu")
   })
   
-  app.get('/help/:id', (req, res) => {
-    res.send(`For any further assistance.. ${req.params.id}`)
+  app.get('/help', (req, res) => {
+    res.send(`For any further assistance..contact Annie Chandolu`)
   })
   
 
