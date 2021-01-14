@@ -1,0 +1,30 @@
+{
+  "name": "ac-node-express",
+  "version": "1.0.0",
+  "description": "Hello Kamariya",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annie0sc/ac-node-express.git"
+  },
+  "keywords": [
+    "example",
+    "express"
+  ],
+  "author": "Annie Chandolu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annie0sc/ac-node-express/issues"
+  },
+  "homepage": "https://github.com/annie0sc/ac-node-express#readme",
+  "engines": {
+    "node": "15.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
